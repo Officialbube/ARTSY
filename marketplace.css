@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 480px){
+    html{
+        font-size: 14px;
+    }
+    .container{
+        width: 100vw;
+        background-color: #ffffff;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 1.78rem;
+    }
+    .hamburger{
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.39rem;
+        margin-left: 1.28rem;
+    }
+    .hamburger div{
+        background-color: #000000;
+        height: 1px;
+        width: 1.4rem;
+    }
+    .logo h3{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 52px;
+        width: 85px;
+        font-style: normal;
+        color: #292929;
+    }
+    .menu{
+        display: none;
+    }
+    .icons{
+        margin-right: 1.35rem;
+    }
+
+
+    .directory{
+        font-size: 18px;
+        font-weight: 500;
+        color: #BCB7B7;
+        line-height: 51.5px;
+        margin-left: 0.57rem;
+    }
+    .directory span{
+        color: #292929;
+    }
+    .result-num{
+        margin-left: 0.57rem;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: italic;
+        line-height: 24px;
+        color: #BCB7B7;
+    }
+    .filter-container{
+        background: #FFFFFF;
+        box-shadow: 4px 4px 64px rgba(0,0,0,0.1);
+        border-radius: 15px;
+        margin-left: 0.57rem;
+        margin-right: 0.57rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 4.28rem;
+        margin-top: 1.07rem;
+        
+    }
+    .filter1{
+        margin-left: 1.42rem;
+        
+    }
+    .filter1 button{
+        border: none;
+        background-color: #ffffff;
+    }
+    .filter2{
+        margin-right: 1.64rem;
+    }
+    .filter2 button{
+        border: none;
+        background-color: #ffffff;
+    }
+    .product-container{
+        margin-top: 2.21rem;
+    }
+    .product2{
+       margin-top: 3.21rem;
+    }
+    .product3{
+        margin-top: 3.21rem;
+     }
+     .product4{
+        margin-top: 3.21rem;
+     }
+     .product5{
+        margin-top: 3.21rem;
+     }
+    img{
+        margin-left: 2rem;
+        margin-right: 2.07rem;
+        
+        
+    }
+    .name-and-price{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0.71rem;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25.22px;
+    }
+    .name{
+        margin-left: 2rem;
+    }
+    .price{
+        margin-right: 2.07rem;
+    }
+
+/*check again*/
+    .dropdown {
+        display: inline-block;
+        position: relative;
+      }
+      .filter-content {
+        display: none;
+        position: absolute;
+        width: 100%;
+        overflow: auto;
+        box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+      }
+      .filter-container:hover .filter-content {
+        display: block;
+      }
+      .filter-content a {
+        display: block;
+        color: #000000;
+        padding: 5px;
+        text-decoration: none;
+      }
+      .filter-content a:hover {
+        color: #FFFFFF;
+        background-color: #00A4BD;
+      }
+
+
+      .btn-container{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 3.92rem;
+        align-items: center;
+      }
+      .btn-container button{
+        height: 3.78rem;
+        width: 3.78rem;
+        border-radius: 50%;
+      }
+      .btn-container p{
+        margin-right: 0.92rem;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 31.52px;
+      }
+
+
+
+
+      .footer{
+        margin-top: 4.35rem;
+        margin-left: 1.42rem;
+    }
+    .newsletter{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .subscribe{
+        margin-top: 0.92rem;
+        font-size: 11.64px;
+        font-weight: 400;
+    }
+    input{
+        margin-top: 1.78rem;
+        height: 3.28rem;
+        width: 22.85rem;
+        border: 1px solid #333333;
+        padding-left: 1.07rem;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 13.5px;
+        text-transform: uppercase;
+        color: #333333;
+    }
+    .newsletter-container button{
+        display: block;
+        margin-top: 1.87rem;
+        height: 3.83rem;
+        width: 12.97rem;
+        border: 1px solid #333333;
+        background: #272727;
+        font-size: 11.64px;
+        color: #ffffff;
+        font-weight: 400;
+    }
+    .reach{
+        font-size: 11.64px;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-top: 2.08rem;
+    }
+}
