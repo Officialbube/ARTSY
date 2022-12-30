@@ -55,6 +55,13 @@
     .directory span{
         color: #292929;
     }
+    hr{
+        margin: 0 0.57rem;
+    }
+    .line{
+        margin-top: 0.5rem
+    }
+    
     .product-container{
         margin-top: 2.14rem;
     }
@@ -78,5 +85,130 @@
     }
     .price{
         margin-right: 2.07rem;
+    }
+    .details{
+        margin-left: 2rem;
+        margin-right: 2.07rem;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25.22px;
+    }
+    .details p:nth-child(1){
+        margin-top: 2.14rem;
+        color: #000000;
+    }
+    .details p:nth-child(1) span{
+        
+        color: #006CA2;
+    }
+    .details p:nth-child(2){
+        margin-top: 1.42rem;
+        color: #616161;
+    }
+    .details p:nth-child(3){
+        margin-top: 1.42rem;
+        color: #616161;
+    }
+    .cart{
+        margin-left: 2rem;
+        margin-right: 2.07rem;
+        margin-top: 1.71rem;
+    }
+    .num{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 29.28px;
+    }
+    .num button{
+        font-size: 30px;
+        border: none;
+        background: #ffffff;
+    }
+    .num span{
+        margin: 0 1.64rem;
+    }
+    .cont{
+        margin-top: 1.78rem;
+    }
+    .add{
+        height: 4.10rem;
+        width: 15.29rem;
+        background-color: #3341C1;
+        color: #ffffff;
+        border-radius: 4px;
+        border: none;
+        font-size: 17.25px;
+        font-weight: 500;
+        line-height: 23.29px;
+    }
+    .heart{
+        height: 4.10rem;
+        width: 4.71rem;
+        background: #ffffff;
+        margin-left: 1.41rem;
+        border: 1px solid #161616;
+        border-radius: 4px;
+    }
+    .line1{
+        margin-top: 3.96rem;
+    }
+    .descrip-cont, .listing-cont, .status-cont{
+        margin: 1.42rem;
+        margin-left: 2rem;
+        margin-right: 2.71rem;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28.37px;
+    }
+    .more-collection{
+        margin-top: 7.14rem;
+        margin-left: 0.57rem;
+        margin-right: 0.57rem;
+        margin-bottom: 23.71rem;
+    }
+    .title{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .collection-cont{
+        border: 1px solid #333333;
+        margin-top: 2.14rem;
+    }
+    .collection{
+        background: url(images/Rectangle\ 254.png);
+        background-size: cover;
+        height: 30.07rem;
+        width: 26.35rem;
+        margin-top: 3.14rem;
+        margin-left: 1.07rem;
+        margin-right: 1.07rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .collection button{
+        height: 4.21rem;
+        width: 4.21rem;
+        border-radius: 50%;
+        background: transparent;
+        color: #616161;
+        border: 1px solid #616161;
+    }
+    .collection button:nth-child(1){
+        margin-left: 0.35rem;
+    }
+    .collection button:nth-child(2){
+        margin-right: 0.35rem;
+    }
+    .collection-details{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0.71rem;
+        margin-bottom: 0.78rem;
+        margin-left: 1.07rem;
+        margin-right: 1.07rem;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 23.42px;
     }
 }

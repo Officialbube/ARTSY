@@ -8,6 +8,9 @@
     html{
         font-size: 14px;
     }
+    body{
+        overflow-x: hidden;
+    }
     .container{
         width: 100vw;
         background-color: #ffffff;
@@ -17,17 +20,20 @@
         justify-content: space-between;
         width: 100%;
         margin-top: 1.78rem;
+        align-items: center;
     }
-    .hamburger{
+    .burger{
         display: flex;
         flex-direction: column;
         row-gap: 0.39rem;
         margin-left: 1.28rem;
+        cursor: pointer;
     }
-    .hamburger div{
+    .burger div{
         background-color: #000000;
         height: 1px;
         width: 1.4rem;
+        transition: all 0.3s ease;
     }
     .logo h3{
         font-size: 24px;
@@ -37,8 +43,32 @@
         font-style: normal;
         color: #292929;
     }
-    .menu{
-        display: none;
+    .nav-links{
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 52.57rem;
+        width: 100%;
+        background-color: #ffffff;
+        margin-top: 3.57rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        transform: translateX(-100%);
+        transition: 0.5s ease-in;
+    }
+    .nav-links a{
+        color: #333333;
+        opacity: 0;
+        margin-top: 5rem;
+        margin-left: 2.14rem;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 51.5px;
+        text-decoration: none;
+    }
+    .nav-active{
+        transform: translateX(0);
     }
     .icons{
         margin-right: 1.35rem;
@@ -294,4 +324,43 @@
         margin-top: 2.08rem;
     }
 
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.toggle .line1{
+    transform: rotate(-45deg) translate(-6px,5px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-4px,-3px);
+}
+.show{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+.show .icons{
+    display: none;
+}
+.show .logo{
+    margin-left: 1.28rem;
+    position: relative;
+    z-index: 1;
+}
+.show .burger{
+    margin-right: 1.35rem;
+    position: relative;
+    z-index: 1;
 }
