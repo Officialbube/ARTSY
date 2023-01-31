@@ -325,10 +325,41 @@
         height: 17.92rem;
         background: #E2E2E2;
         margin-top: 4.28rem;
+        position: relative;
+    }
+    .top-container{
+        display: flex;
     }
     .top-title h2{
         font-size: 24px;
         font-weight: 600;
+        margin-top: 7px;
+    }
+    .options ul{
+        display: flex;
+    }
+    .sub-text{
+        margin-top: 1rem;
+        text-align: center;
+        color: hsla(0, 0%, 0%, 0.575);
+        font-size: 13px;
+        font-weight: 200;
+        line-height: 16.9px;
+    }
+    .circa{
+        font-size: 32px;
+        font-weight: 700;
+        color: #333333;
+        position: absolute;
+        left: 18rem;
+    }
+    .year{
+        font-size: 64px;
+        font-weight: 700;
+        color: #161616;
+        position: absolute;
+        left: 22rem;
+        top: 210px;
     }
     .footer{
         margin-top: 4.71rem;
