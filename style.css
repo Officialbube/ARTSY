@@ -132,7 +132,8 @@
     }
 
     .swiper-slide img{
-       
+       height: 302px;
+       width: 349px;
     }
     .section2{
         margin-left: 0.57rem;
