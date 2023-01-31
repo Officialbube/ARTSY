@@ -77,6 +77,12 @@
     .icons{
         margin-right: 1.35rem;
     }
+    .search{
+        margin-right: 1rem;
+    }
+    .bell{
+        display: none;
+    }
     .hero{
        
     }
